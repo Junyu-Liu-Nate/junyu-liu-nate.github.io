@@ -3,7 +3,8 @@
 /**********************************/
 body {
     color: #666666;
-    background: #F6D155;
+    background: #219aa8;
+    /* #F6D155; */
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -314,7 +315,7 @@ a:focus {
 
 .header .content-inner {
     padding: 100px 30px;
-    background: url(../img/profile.png) right bottom no-repeat;
+    background: url(../img/Junyu_up.jpg) right bottom no-repeat;
     background-size: contain;
 }
 
