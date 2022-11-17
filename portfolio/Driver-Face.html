@@ -124,6 +124,41 @@
                             </div>
                         </div>
 
+                        <h5><b>Motivation</b></h5>
+                        <p>
+                            Facial Expressions are valuable data sources for advanced Human-Vehicle-Interaction designs. However, existing works always consider the whole facial expressions as input, which restricts the design space for detailed optimizations. To this end, we leverage Local Binary Fitting, a novel mechanism for selecting representative feature points from facial images on the fly, for our characterizations. Our characterizations reveal that, among six major components of facial feature points, there are significant variations of correlations with a certain vehicle status (i.e. Vehicle Speed), in terms of (1) the time spots during the driving procedure; and (2) the gender of the drivers.
+                        </p>
+                        <p></p>
+
+                        <h5><b>Introduction</b></h5>
+                        <p>
+                            Nowadays, the whole facial expressions are considered as input for Human-Vehicle Interaction designs, which restricts the design space for detailed optimizations. Our goal is to justify the hypothesis that facial expressions can exhibit significant variations during the driving procedure. Our works can serve as a starting point to deal with adaptive and personalized Human-Vehicle Interaction designs in the future.
+                        </p>
+                        <p></p>
+
+                        <h5><b>Procedure</b></h5>
+                        <div>
+                            <img src="../img/Face_vary_1.png" alt="Image">
+                        </div>
+                        <h6>(1) Preprocessing of Facial Expressions</h6>
+                        <p>
+                            Acquisition & Normalization: Face Mesh is used to locate and intercept the whole facial expressions from input images. The located region is then normalized into the same dimension.
+                        </p>
+                        <h6>(2) Feature Extraction</h6>
+                        <p>
+                            In the shallow layer of this model, the Local Binary Fitting is adopted to realize Normalized Pixel Difference. In the deep layer, CNN is utilized to group all feature points into 6 preset categories (forehead, eyes, eyebrows, nose, mouth and jaw).
+                        </p>
+                        <h6>(3) Output</h6>
+                        <p>
+                            Each category feature points are unified through linear regression and the final feature points of each type is obtained.
+                        </p>
+                        <p></p>
+
+                        <h5><b>Experiment Results</b></h5>
+                        <div>
+                            <img src="../img/Face_vary_2.png" alt="Image">
+                        </div>
+
                         <h5><b>Reference</b></h5>
                         <p>Jiahao Wang, Zeyu Xiong, Yicun Duan, Junyu Liu, Zilin Song, and Xiangjun Peng. 2021. The Importance Distribution of Drivers’ Facial Expressions Varies over Time! In AutomotiveUI ’21: 13th International Conference on Automotive User Interfaces and Interactive Vehicular Applications (AutomotiveUI’21). ACM, 148–151.</p>
     

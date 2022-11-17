@@ -124,6 +124,80 @@
                             </div>
                         </div>
 
+                        <h5><b>Motivation</b></h5>
+                        <p>
+                            A comprehensive roadmap to deliver user-friendly, low-cost and effective alternatives for extracting drivers’ statistics.
+                        </p>
+                        <p></p>
+
+                        <h5><b>Overall Design</b></h5>
+                        <div>
+                            <img src="../img/F2S_1.png" alt="Image">
+                        </div>
+                        <p></p>
+                        <h6>Input</h6>
+                        <p>
+                            Raw video streams (facial expressions contains many noisy pixels)
+                        </p>
+                        <h6>Step 1</h6>
+                        <p>
+                            Pre-processing input images to retrieve only the facial expressions and enhance the performance of Face2Statistics
+                        </p>
+                        <h6>Step 2</h6>
+                        <p>
+                            Exploring different deep neural network-driven predictors <br>
+                            First Attempt: Convolution Neural Networks (CNNs) <br>
+                            Second Attempt: Long Short-Term Memory (LSTM) Recurrent Neural Network (RNN) <br>
+                            Third Attempt: Bidirectional Long-Short-Term Memory (BiLSTM) Recurrent Neural Network (RNN) <br>
+                        </p>
+                        <h6>Step 3</h6>
+                        <p>
+                            Visualizing predicted results
+                        </p>
+
+                        <h5><b>Key Design Choices</b></h5>
+                        <p>
+                            (1) We utilize HSV color space instead of RGB color space to reduce the variance of illumination among different pixels.<br>
+                            (2) We apply personalized parameters via pearson correlation coefficients to conditional random field to realize customizing.
+                        </p>
+
+                        <h5><b>Experiment Results</b></h5>
+                        <h6> (1) Comparisons between Different Neural Network Models</h6>
+                        <p>
+                            The results of training and validation accuracy, in terms of DenseNet, LSTM and BiLSTM are displayed as follows.
+                        </p>
+                        <div class="row align-items-center">
+                            <div class="col-md-6 col-lg-6">
+                                <img src="../img/F2S_2.png" alt="Image">
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <img src="../img/F2S_3.png" alt="Image">
+                            </div>
+                        </div>
+                        <p></p>
+                        <h6> (2) Comparisons between Different Color Models</h6>
+                        <p>
+                            The results of training and validation accuracy, in terms of RGB and HSV are displayed as follows.
+                        </p>
+                        <div class="row align-items-center">
+                            <div class="col-md-6 col-lg-6">
+                                <img src="../img/F2S_4.png" alt="Image">
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <img src="../img/F2S_5.png" alt="Image">
+                            </div>
+                        </div>
+                        <p></p>
+                        <h6> (3) Comparisons between Models with or without CRF</h6>
+                        <p>
+                            The results of the comparative validation accuracy of BiLSTM w/ and w/out CRF support for four different drivers are displayed as follows..
+                        </p>
+                        <div>
+                            <img src="../img/F2S_6.png" alt="Image">
+                        </div>
+                        <p></p>
+                        
+
                         <h5><b>Reference</b></h5>
                         <p>Zeyu Xiong, Jiahao Wang, Wangkai Jin, Junyu Liu, Yicun Duan, Zilin Song, and Xiangjun Peng. 2021. Face2Statistics: User-Friendly, Low-Cost and Effective Alternative to In-Vehicle Sensors/Monitors for Drivers. In Proceedings of the 24th International Conference on Human-Computer Interactions (HCI’22).</p>
                         
