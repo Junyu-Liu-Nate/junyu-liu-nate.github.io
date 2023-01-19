@@ -2,10 +2,13 @@
 /********** General CSS ***********/
 /**********************************/
 body {
-    color: #666666;
-    background: #f6d25e;
+    /* color: #666666; */
+    color: #000000;
+    /* background: #f6d25e; */
+    /* background: #e0e0e0; */
+    background:#e0e0e0;
     /* #F6D155; */
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: Arial; */
 }
 
 a {
@@ -48,7 +51,8 @@ a:focus {
     width: 100%;
     padding: 15px;
     float: left;
-    background: #F6D155;
+    /* background: #F6D155; */
+    background: #e0e0e0;
 }
 
 .wrapper .sidebar-header,
@@ -113,7 +117,8 @@ a:focus {
         content: "";
         width: 100%;
         height: 30px;
-        background: #F6D155;
+        /* background: #F6D155; */
+        background:#e0e0e0;
         z-index: 1;
     }
     
@@ -351,7 +356,8 @@ a:focus {
 
 .large-btn .content-inner {
     font-size: 0;
-    border-bottom: 30px solid #F6D155;
+    /* border-bottom: 30px solid #F6D155; */
+    border-bottom: 30px solid#e0e0e0;
 }
 
 .large-btn .btn {
@@ -426,7 +432,8 @@ a:focus {
     position: relative;
     padding: 60px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    /* border-bottom: 30px solid #F6D155; */
+    border-bottom: 30px solid#e0e0e0;
 }
 
 
@@ -547,7 +554,7 @@ a:focus {
     position: relative;
     padding: 60px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    border-bottom: 30px solid #e0e0e0;
 }
 
 .education .edu-col {
@@ -620,7 +627,7 @@ a:focus {
     position: relative;
     padding: 60px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    border-bottom: 30px solid #e0e0e0;
 }
 
 .experience .exp-col {
@@ -707,7 +714,7 @@ a:focus {
     position: relative;
     padding: 60px 30px 30px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    border-bottom: 30px solid #e0e0e0;
 }
 
 .service .srv-col {
@@ -754,7 +761,7 @@ a:focus {
     position: relative;
     padding: 60px 30px 30px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    border-bottom: 30px solid #e0e0e0;
 }
 
 .portfolio #portfolio-flters {
@@ -770,7 +777,7 @@ a:focus {
     display: inline-block;
     height: 35px;
     padding: 10px;
-    color: #666666;
+    color: #000000;
     font-size: 13px;
     line-height: 15px;
     text-transform: uppercase;
@@ -874,7 +881,7 @@ a:focus {
 .portfolio .portfolio-item figure .portfolio-title span {
     display: block;
     margin-top: 10px;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     font-size: 13px;
     font-weight: 300;
 }
@@ -901,7 +908,7 @@ a:focus {
 .review {
     position: relative;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    border-bottom: 30px solid #e0e0e0;
 }
 
 .review .content-inner {
