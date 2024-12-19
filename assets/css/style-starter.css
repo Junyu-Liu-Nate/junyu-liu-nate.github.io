@@ -180,7 +180,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #6c757d;
+  color: #090a0a;
   text-align: left;
   caption-side: bottom; }
 
@@ -441,7 +441,7 @@ mark,
 
 .figure-caption {
   font-size: 90%;
-  color: #6c757d; }
+  color: #121314; }
 
 code {
   font-size: 87.5%;
